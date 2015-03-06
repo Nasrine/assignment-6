@@ -5,8 +5,7 @@ html{
 	  
 	  box-sizing: inherit;
 	}
-		color:	black
-}
+		
 h1{
 	font-family: Contrail One;
 	position: absolute;
@@ -60,16 +59,16 @@ transition: all 100ms linear;
 }
 
 header{
-	background-color: gray;
+	background-color: #2c3950;
 	position: relative;
 }
 div:hover .head-left{
-	right:15px, 
-	left:35px,
+	right:15px; 
+	left:35px;
 }
 div:hover .head-right{
-	right:15;
-	left:35;
+	right:0;
+	left:0;
 }
 div:hover .robot-brain{
 	top:48px;
