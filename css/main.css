@@ -40,6 +40,7 @@ img{
  	position: absolute;
  	top: 48px;
  	left: 138px;
+ 	transition: all 100ms linear;
  }
 
  .head-right{
@@ -47,6 +48,7 @@ img{
  	position: absolute;
  	top: 0;
  	right: 35px;
+ 	transition: all 100ms linear;
  }
  
 .head-left {
@@ -54,11 +56,24 @@ width: 125px;
 position: absolute;
 top: 0;
 left:35px;
+transition: all 100ms linear;
 }
 
 header{
 	background-color: gray;
 	position: relative;
+}
+div:hover .head-left{
+	right:15px, 
+	left:35px,
+}
+div:hover .head-right{
+	right:15;
+	left:35;
+}
+div:hover .robot-brain{
+	top:48px;
+	bottom:18px; 
 }
 
 
