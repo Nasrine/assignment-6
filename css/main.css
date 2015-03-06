@@ -1,0 +1,87 @@
+
+html{
+	  box-sizing: border-box;
+	  *, *::before, *::after {
+	  
+	  box-sizing: inherit;
+	}
+		color:	black
+}
+h1{
+	font-family: Contrail One;
+	position: absolute;
+	margin: 0;
+	left: 0;	
+	color: white;
+	text-align: center;
+	width: 100%;
+	background-color: black;											
+}
+
+img{
+	width: 100%;
+	display: block; 
+
+}
+ .images{
+ 	width: 320px;
+ 	position: relative;
+ 	margin: 0 auto;
+ }
+
+ .robot-body{
+ 	width: 320px;
+
+ 	padding-top:40px;
+ }
+
+ .robot-brain{
+ 	width: 46px;
+ 	position: absolute;
+ 	top: 48px;
+ 	left: 138px;
+ }
+
+ .head-right{
+ 	width: 125px;
+ 	position: absolute;
+ 	top: 0;
+ 	right: 35px;
+ }
+ 
+.head-left {
+width: 125px;
+position: absolute;
+top: 0;
+left:35px;
+}
+
+header{
+	background-color: gray;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
