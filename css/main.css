@@ -62,13 +62,11 @@ header{
 	background-color: #2c3950;
 	position: relative;
 }
-div:hover .head-left{
-	right:15px; 
-	left:0px;
+div:hover .head-left{ 
+	left:-30px;
 }
 div:hover .head-right{
-	right:-15px;
-	left:0px;
+	right: -30px;
 }
 div:hover .robot-brain{
 	top:48px;
