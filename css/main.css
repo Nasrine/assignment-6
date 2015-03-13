@@ -1,6 +1,6 @@
 
 html{
-	  box-sizing: border-box;
+	  box-sizing: border-box;}
 	  *, *::before, *::after {
 	  
 	  box-sizing: inherit;
@@ -51,11 +51,11 @@ img{
  }
  
 .head-left {
-width: 125px;
-position: absolute;
-top: 0;
-left:35px;
-transition: all 100ms linear;
+	width: 125px;
+	position: absolute;
+	top: 0;
+	left:35px;
+	transition: all 100ms linear;
 }
 
 header{
@@ -64,11 +64,11 @@ header{
 }
 div:hover .head-left{
 	right:15px; 
-	left:35px;
+	left:0px;
 }
 div:hover .head-right{
-	right:0;
-	left:0;
+	right:-15px;
+	left:0px;
 }
 div:hover .robot-brain{
 	top:48px;
